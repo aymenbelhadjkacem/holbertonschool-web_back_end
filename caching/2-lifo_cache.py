@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Create a class LIFOCache that inherits from
-BaseCaching and is a caching system"""
+''' self descriptive code '''
 
 BaseCaching = __import__('base_caching').BaseCaching
 
 
 class LIFOCache(BaseCaching):
-    """LIFO"""
+    ''' self descriptive '''
+
     def __init__(self):
         super().__init__()
         self.key_indexes = []
